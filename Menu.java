@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.io.*;
+import java.util.ArrayList;
 public class Menu{
     public static void main (String[] args) {
 
@@ -27,8 +29,7 @@ public class Menu{
                     break;
                 case 4:
                     //Daniela
-                    import java.io.*;
-                    import java.util.ArrayList;
+                    
                     try {
 
         ArrayList<Cliente> clientes = new ArrayList<>();
