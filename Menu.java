@@ -1,5 +1,8 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 
@@ -36,7 +39,7 @@ public class Menu {
 
                         //LEER PRODUCTOS
                         BufferedReader brProductos =
-                                new BufferedReader(new FileReader("productos.csv"));
+                                new BufferedReader(new FileReader("Productos.csv"));
 
                         String linea = brProductos.readLine();
 
@@ -155,9 +158,7 @@ public class Menu {
                 case 5:
                     // Quin sea
                 default:
-                    break;
 
-                default:
                     System.out.println("Opción inválida");
             }
 
