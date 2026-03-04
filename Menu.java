@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 public class Menu{
     public static void main (String[] args) {
 
@@ -22,10 +24,7 @@ public class Menu{
                 case 2:
                     //Jairo
                     break;
-                case 3:
-                import java.io.*;
-import java.util.*;
-
+                case 3:            
 public class totalVentas {
 
     public static void opcion3() {
