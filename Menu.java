@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.io.*;
+import java.util.ArrayList;
 
 public class Menu {
     public static void main(String[] args) {
@@ -27,7 +29,7 @@ public class Menu {
                     Opcion3.CalcularelTotaldeVentasporProducto();
                     break;
                 case 4:
-                    // Jesus
+                    Opcion4.Verclientesquehanrealizadocompras();
                     break;
                 case 5:
                     // Quin sea
