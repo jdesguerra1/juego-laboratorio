@@ -1,5 +1,5 @@
+
 import java.io.IOException;
-import java.util.List;
 import java.util.Scanner;
 
 
@@ -19,25 +19,36 @@ public class Menu {
             System.out.print("Seleccione una opción: ");
 
             opcion = sc.nextInt();
+
             switch (opcion) {
+
                 case 1:
                     Opcion1.mostrarProductosOrdenados();
                     break;
+
                 case 2:
                     // Jairo
                     break;
+
                 case 3:
                     // Daniela
                     break;
+
                 case 4:
                     // Jesus
                     break;
+
                 case 5:
                     // Quin sea
                 default:
-                    break;
+
+                    System.out.println("Opción inválida");
             }
 
         }
+
+        sc.close();
     }
 }
+            
+        
