@@ -1,7 +1,3 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Menu {
@@ -22,7 +18,7 @@ public class Menu {
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
-                    // Jose
+                    Opcion1.mostrarProductosOrdenados();
                     break;
                 case 2:
                     Opcion2.AgregarunNuevoCliente();
@@ -31,7 +27,7 @@ public class Menu {
                     Opcion3.CalcularelTotaldeVentasporProducto();
                     break;
                 case 4:
-                    // Daniela
+                    // Jesus
                     break;
                 case 5:
                     // Quin sea
@@ -41,4 +37,4 @@ public class Menu {
 
         }
     }
-}
+}}

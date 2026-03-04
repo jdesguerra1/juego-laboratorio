@@ -1,3 +1,9 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Opcion2 {
         public static void AgregarunNuevoCliente(){
 
@@ -33,7 +39,6 @@ try {
 
     System.out.println("Cliente agregado correctamente.");
 
-    sc2.close();
 
 } catch (IOException e) {
     System.out.println("Error al agregar cliente.");

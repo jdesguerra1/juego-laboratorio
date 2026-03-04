@@ -10,7 +10,7 @@ public class Opcion3{
 
                         //LEER PRODUCTOS
                         BufferedReader brProductos =
-                                new BufferedReader(new FileReader("productos.csv"));
+                                new BufferedReader(new FileReader("Productos.csv"));
 
                         String linea = brProductos.readLine();
 
