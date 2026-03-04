@@ -19,25 +19,35 @@ public class Menu {
             System.out.print("Seleccione una opción: ");
 
             opcion = sc.nextInt();
+
             switch (opcion) {
+
                 case 1:
                     Opcion1.mostrarProductosOrdenados();
                     break;
+
                 case 2:
                     // Jairo
                     break;
+
                 case 3:
-                    // Jesus
+                    Opcion3.CalcularelTotaldeVentasporProducto();
                     break;
+
                 case 4:
-                    // Daniela
+                    //jesus;
                     break;
+
                 case 5:
                     // Quin sea
                 default:
-                    break;
+                    System.out.println("Opción inválida");
             }
 
         }
+
+        sc.close();
     }
 }
+            
+        
