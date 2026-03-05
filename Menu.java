@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Menu {
+    public static void main(String[] args) {
+
+        try (Scanner sc = new Scanner(System.in)) {
+            int opcion = 0;
+
+            while (opcion != 5) {
+            System.out.println("===== SISTEMA E-COMMERCE =====");
+            System.out.println("1. Ver productos ordenados por precio");
+            System.out.println("2. Agregar un nuevo cliente");
+            System.out.println("3. Calcular total de ventas por producto");
+            System.out.println("4. Ver clientes que han realizado compras");
+            System.out.println("5. Salir");
+            System.out.print("Seleccione una opción: ");
+
+            opcion = sc.nextInt();
+            switch (opcion) {
+                case 1:
+                    Opcion1.mostrarProductosOrdenados();
+                    break;
+                case 2:
+                    Opcion2.AgregarunNuevoCliente();
+                    break;
+                case 3:
+                    Opcion3.CalcularelTotaldeVentasporProducto();
+                    break;
+                case 4:
+                    Opcion4.Verclientesquehanrealizadocompras();
+                    break;
+                case 5:
+                    // Quin sea
+                default:
+                    System.out.println("Opción inválida");
+            }
+
+        }
+    }
+}}
